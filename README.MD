@@ -7,7 +7,7 @@ Graph Visualization App is an application that allows you to create and display 
 1. Clone the repository from GitHub:
 
     ```
-    git clone https://github.com/yourusername/graph-visualization-app.git
+    git clone https://github.com/phuquocchamp/visualization-graph-tool
     ```
 
 2. Install dependencies using npm:
