@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+
+    <title>graph tool visualization</title>
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <!-- Nội dung của phần 1 -->
+
+        <section class="input-section">
+<!--            <span class="section">-->
+<!--                <p>Nodes : <b id="node-size"></b></p>-->
+<!--                <p>Edges: <b id="edge-size"></b></p>-->
+<!--            </span>-->
+            <p class="label">Edges: </p>
+            <label>
+                <textarea id="edges-area" class="edges-area"></textarea>
+            </label>
+
+            <p class="label">Terminals: </p>
+            <label>
+                <textarea id="terminals-area" class="terminals-area"></textarea>
+            </label>
+        </section>
+
+    </div>
+    <div class="center-section">
+        <div id="myNetwork" class="en-grid"></div>
+    </div>
+    <div class="right-section">
+        <div class="tool-bar">
+            <button id="open-file">Open File</button>
+            <button id="dis-grid">Disable Grid</button>
+            <button id="draw-graph">Draw Graph</button>
+            <button>
+                Generation : <b id="num-gen">0</b>
+            </button>
+            <button id="auto-gen">Auto</button>
+            <button id="next-gen">Next Generation</button>
+            <button id="prev-gen">Previous Generation</button>
+            <button id="reset-gen">Reset Generation</button>
+            <button id="clear-graph">Clear Graph</button>
+<!--            <button><a id="export" download="filename">Export Graph</a></button>-->
+
+        </div>
+    </div>
+</div>
+<script src="renderer.js"></script>
+</body>
+</html>
